@@ -1,5 +1,5 @@
-Summary:	Disktype detect the content format of a disk or disk image
-Summary(pl):	Disktype s³u¿y do wykrywania formatu dysku lub jego obrazu
+Summary:	Disktype - detect the content format of a disk or disk image
+Summary(pl):	Disktype - narzêdzie do wykrywania formatu dysku lub jego obrazu
 Name:		disktype
 Version:	6
 Release:	1
