@@ -24,9 +24,9 @@ podstawowe systemy plików, tablice partycji oraz kody startowe.
 
 %build
 %{__make} \
-        CC="%{__cc}" \
-        CFLAGS="%{rpmcflags}" \
-        LDFLAGS="%{rpmldflags}"
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}" \
+	LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
