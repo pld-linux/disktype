@@ -1,4 +1,5 @@
-Summary:	Disktype detect the content format of a disk or disk image.
+Summary:	Disktype detect the content format of a disk or disk image
+Summary(pl):	Disktype s³u¿y do wykrywania formatu dysku lub jego obrazu
 Name:		disktype
 Version:	6
 Release:	1
@@ -13,6 +14,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The purpose of disktype is to detect the content format of a disk or
 disk image. It knows about common file systems, partition tables, and
 boot codes.
+
+%description -l pl
+disktype s³u¿y do wykrywania formatu dysku lub jego obrazu. Zna
+podstawowe systemy plików, tablice partycji oraz kody startowe.
 
 %prep
 %setup -q
