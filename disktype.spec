@@ -3,9 +3,9 @@ Summary(pl):	Disktype - narzêdzie do wykrywania formatu dysku lub jego obrazu
 Name:		disktype
 Version:	8
 Release:	1
-License:	GPL
+License:	MIT
 Group:		Applications/System
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/disktype/%{name}-%{version}.tar.gz
 # Source0-md5:	47cf84b2474dd354cdbe56bf02bb50ab
 URL:		http://disktype.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -38,5 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc HISTORY README TODO
+%doc HISTORY LICENSE README TODO
 %attr(755,root,root) %{_bindir}/*
