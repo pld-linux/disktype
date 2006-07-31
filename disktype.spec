@@ -1,12 +1,12 @@
 Summary:	Disktype - detect the content format of a disk or disk image
 Summary(pl):	Disktype - narzêdzie do wykrywania formatu dysku lub jego obrazu
 Name:		disktype
-Version:	8
+Version:	9
 Release:	1
 License:	MIT
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/disktype/%{name}-%{version}.tar.gz
-# Source0-md5:	47cf84b2474dd354cdbe56bf02bb50ab
+# Source0-md5:	25a673f162b9c01cd565109202559489
 URL:		http://disktype.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
