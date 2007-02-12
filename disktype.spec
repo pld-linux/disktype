@@ -1,5 +1,5 @@
 Summary:	Disktype - detect the content format of a disk or disk image
-Summary(pl):	Disktype - narzêdzie do wykrywania formatu dysku lub jego obrazu
+Summary(pl.UTF-8):   Disktype - narzÄ™dzie do wykrywania formatu dysku lub jego obrazu
 Name:		disktype
 Version:	9
 Release:	1
@@ -15,9 +15,9 @@ The purpose of disktype is to detect the content format of a disk or
 disk image. It knows about common file systems, partition tables, and
 boot codes.
 
-%description -l pl
-disktype s³u¿y do wykrywania formatu dysku lub jego obrazu. Zna
-podstawowe systemy plików, tablice partycji oraz kody startowe.
+%description -l pl.UTF-8
+disktype sÅ‚uÅ¼y do wykrywania formatu dysku lub jego obrazu. Zna
+podstawowe systemy plikÃ³w, tablice partycji oraz kody startowe.
 
 %prep
 %setup -q
