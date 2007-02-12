@@ -1,5 +1,5 @@
 Summary:	Disktype - detect the content format of a disk or disk image
-Summary(pl.UTF-8):   Disktype - narzędzie do wykrywania formatu dysku lub jego obrazu
+Summary(pl.UTF-8):	Disktype - narzędzie do wykrywania formatu dysku lub jego obrazu
 Name:		disktype
 Version:	9
 Release:	1
